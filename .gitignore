@@ -4,3 +4,6 @@ build/
 *.user
 .vs/
 GameDir.props
+GambleMaxPlayers-*.zip
+thunderstore/README.md
+thunderstore/BepInEx/

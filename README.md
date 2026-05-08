@@ -6,7 +6,13 @@ Removes the 6-player lobby cap in **Gamble With Your Friends**. The limit is con
 
 ## Installation
 
-### Step 1 — Install BepInEx
+### Option A — Thunderstore Mod Manager (recommended)
+
+Install via [r2modman](https://thunderstore.io/package/ebkr/r2modman/) or the Thunderstore Mod Manager. Search for **GambleMaxPlayers**, click Install. BepInEx is pulled in automatically as a dependency.
+
+### Option B — Manual
+
+#### Step 1 — Install BepInEx
 
 1. Go to the [BepInEx releases page](https://github.com/BepInEx/BepInEx/releases) and download the latest **BepInEx_win_x64** zip (e.g. `BepInEx_win_x64_5.x.x.x.zip`).
 2. Open the zip and extract **all contents** directly into your game folder:
