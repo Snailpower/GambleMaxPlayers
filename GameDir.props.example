@@ -1,6 +1,10 @@
 <Project>
   <PropertyGroup>
-    <!-- Set this to your local game install directory, then rename this file to GameDir.props -->
+    <!-- Set this to your local Steam game install directory, then rename this file to GameDir.props -->
     <GameDir>C:\Program Files (x86)\Steam\steamapps\common\Gamble With Your Friends</GameDir>
+    <!-- Optional: override BepInExDir if BepInEx is installed via Thunderstore Mod Manager
+         rather than directly in the game folder. Point to the profile's BepInEx\core folder.
+    <BepInExDir>C:\Users\YourName\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GambleWithYourFriends\profiles\Default\BepInEx\core</BepInExDir>
+    -->
   </PropertyGroup>
 </Project>

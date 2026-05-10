@@ -1,7 +1,7 @@
 {
   "name": "GambleMaxPlayers",
   "description": "Removes the 6-player lobby cap in Gamble With Your Friends. Configurable max players — default 10, up to 100. Requires BepInEx.",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2305"
   ],
