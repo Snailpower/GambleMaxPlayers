@@ -42,6 +42,13 @@ Staging files live in `thunderstore/`:
 
 To update the version: bump `PluginVersion` in `Plugin.cs` and `version_number` in `thunderstore/manifest.json` together.
 
+## Git workflow
+See `DEVOPS.md` for the full branching and PR strategy. Summary:
+- Branch naming: `feature/<issue-number>-short-description` or `bugfix/<issue-number>-short-description`
+- Commit format: `#<issue-number> short description`
+- PRs target `main` directly (no `develop` branch)
+- PR titles: `#<issue-number> short description`
+
 ## Project references
 Game path is defined in `GameDir.props` (gitignored — copy from `GameDir.props.example` and set your local path).
 All references use MSBuild properties `$(BepInExDir)` and `$(ManagedDir)` — no NuGet packages needed.
