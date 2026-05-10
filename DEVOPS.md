@@ -6,13 +6,13 @@
 
 | Branch | Description |
 |--------|-------------|
-| `main` | Production-ready code |
+| `master` | Production-ready code |
 
 ### Branch Rules
 
-#### `main`
+#### `master`
 - Merges require a **Pull Request** with **at least 1 approval**
-- Only `feature/*` and `bugfix/*` branches may be merged into `main`
+- Only `feature/*` and `bugfix/*` branches may be merged into `master`
 - Direct pushes are not allowed
 
 ---
@@ -72,9 +72,9 @@ All commit messages must follow this format:
 ```
 #<issue-number> short description of what the PR adds/changes/removes
 ```
-- PRs into `main` require **1 approval** before merging
+- PRs into `master` require **1 approval** before merging
 - Link the relevant issue in the PR description
-- Ensure the branch is up to date with `main` before merging
+- Ensure the branch is up to date with `master` before merging
 - Delete the source branch after merging to keep the branch list clean
 
 ---
@@ -85,10 +85,10 @@ All commit messages must follow this format:
 
 - All GitHub issues that are intended for a release must be **tagged with the corresponding release label** (e.g., `release/1.0.0`)
 - When setting up a release, all issues carrying the release tag are bundled into that release
-- Before a release is created, all tagged issues must be **merged and ready on `main`**
+- Before a release is created, all tagged issues must be **merged and ready on `master`**
 
 ### Release Checklist
 
 - [ ] All issues for the release are tagged with the release label
-- [ ] All tagged issues are merged into `main`
-- [ ] `main` is stable and passing all checks
+- [ ] All tagged issues are merged into `master`
+- [ ] `master` is stable and passing all checks

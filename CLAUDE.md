@@ -46,7 +46,7 @@ To update the version: bump `PluginVersion` in `Plugin.cs` and `version_number` 
 See `DEVOPS.md` for the full branching and PR strategy. Summary:
 - Branch naming: `feature/<issue-number>-short-description` or `bugfix/<issue-number>-short-description`
 - Commit format: `#<issue-number> short description`
-- PRs target `main` directly (no `develop` branch)
+- PRs target `master` directly (no `develop` branch)
 - PR titles: `#<issue-number> short description`
 
 ## Project references
