@@ -1,8 +1,7 @@
 @echo off
 setlocal
 
-set GAME_DIR=C:\Program Files (x86)\Steam\steamapps\common\Gamble With Your Friends
-set PLUGINS_DIR=%GAME_DIR%\BepInEx\plugins
+set PLUGINS_DIR=C:\Users\tomho\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GambleWithYourFriends\profiles\Default\BepInEx\plugins\Snailpower-GambleMaxPlayers
 
 echo Building...
 dotnet build --verbosity minimal

@@ -9,8 +9,8 @@
     <OutputPath>$(MSBuildProjectDirectory)\build</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <BepInExDir>$(GameDir)\BepInEx\core</BepInExDir>
-    <ManagedDir>$(GameDir)\Gamble With Your Friends_Data\Managed</ManagedDir>
+    <BepInExDir Condition="'$(BepInExDir)' == ''">$(GameDir)\BepInEx\core</BepInExDir>
+    <ManagedDir Condition="'$(ManagedDir)' == ''">$(GameDir)\Gamble With Your Friends_Data\Managed</ManagedDir>
   </PropertyGroup>
 
   <ItemGroup>

@@ -53,3 +53,13 @@ Changes take effect the next time you launch the game.
 ## Uninstall
 
 Delete `GambleMaxPlayers.dll` from `BepInEx\plugins\`. To also remove BepInEx entirely, delete the `BepInEx\` folder and `winhttp.dll` from the game directory.
+
+---
+
+## Changelog
+
+### 1.0.1
+- Fixed players above slot 6 getting stuck in box state on spawn
+
+### 1.0.0
+- Initial release — configurable lobby size (default 10, max 100)

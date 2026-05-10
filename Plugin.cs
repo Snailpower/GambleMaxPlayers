@@ -11,7 +11,7 @@ namespace GambleMaxPlayers
     {
         public const string PluginGuid = "com.gamblewithfriends.maxplayers";
         public const string PluginName = "GambleMaxPlayers";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         internal static ConfigEntry<int> MaxPlayers;
         internal static ManualLogSource Log;
